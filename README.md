@@ -1,1 +1,4 @@
-# parkng-automated-system
+Parking-Automated-System
+
+
+Welcome to the College Parking System, a modern and user-centric web solution designed to streamline and enhance the parking experience within college campuses. This project provides a responsive and intuitive interface that enables students, faculty, and visitors to efficiently manage parking needs through features like real-time space availability, automated entry/exit, and online reservations. Developed using HTML, CSS (with Tailwind), and JavaScript, the system is visually clean and mobile-friendly. It includes dedicated sections for About, Services, Trust & Reliability, and Contact, offering transparency and ease of navigation. Whether you're reserving a spot or seeking parking during peak hours, our system ensures a safe, accurate, and reliable experience—trusted by over 500 users and operational 24/7. Perfect for academic institutions aiming to digitize and optimize their parking infrastructure.
