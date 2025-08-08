@@ -1,48 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="styles.css" rel="stylesheet" />
-     <script src="https://cdn.tailwindcss.com"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Services - College Parking System</title>
+  <link href="style.css" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <!-- Services Section -->
-<section id="services" class="py-16 bg-white">
-  <div class="max-w-7xl mx-auto text-center">
-    <h2 class="text-3xl font-extrabold mb-6">Our Services</h2>
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
-      <div>
-        <img
-          src="Real-time Parking Availability.png"
-          alt="Real-time Availability"
-          class="mx-auto rounded-lg shadow-lg mb-4"
-        />
-        <h3 class="text-2xl font-semibold mb-2">Real-time Parking Availability</h3>
-        <p class="text-gray-700">Check available parking spaces instantly through our mobile app or web portal.</p>
-      </div>
-      <div>
-        <img
-          src="Automated Entry & Exit.jpg"
-          alt="Automated Entry & Exit"
-          class="mx-auto rounded-lg shadow-lg mb-4"
-        />
-        <h3 class="text-2xl font-semibold mb-2">Automated Entry & Exit</h3>
-        <p class="text-gray-700">Effortless entry and exit with automated ticketing and access control.</p>
-      </div>
-      <div>
-        <img
-          src="Online Parking Reservations.jpg"
-          alt="Online Parking Reservations"
-          class="mx-auto rounded-lg shadow-lg mb-4"
-        />
-        <h3 class="text-2xl font-semibold mb-2">Online Parking Reservations</h3>
-        <p class="text-gray-700">Reserve your parking spot in advance for guaranteed availability on busy days.</p>
+<body class="font-sans text-gray-900">
+
+  <!-- Header -->
+  <header class="backdrop-blur bg-white bg-opacity-80 fixed top-0 left-0 right-0 shadow-sm z-30">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+      <a href="Untitled-1.html" class="flex items-center space-x-2 font-extrabold text-xl text-yellow-500">
+        <span>COLLEGE</span>
+        <span class="text-gray-900">PARKING</span>
+        <span class="text-yellow-500">SYSTEM</span>
+      </a>
+      <nav class="hidden md:flex space-x-8 text-gray-700 font-medium">
+        <a href="Untitled-1.html" class="hover:text-yellow-500">Home</a>
+        <a href="about.html" class="hover:text-yellow-500">About</a>
+        <a href="service.html" class="hover:text-yellow-500 text-yellow-500 font-bold">Services</a>
+        <a href="contact.html" class="hover:text-yellow-500">Contact</a>
+        <a href="trust.html" class="hover:text-yellow-500">Trust & Reliability</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Services Content -->
+  <section id="services" class="pt-28 pb-16 bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-400 text-gray-900">
+    <div class="max-w-6xl mx-auto text-center">
+      <h2 class="text-4xl font-extrabold mb-6">Our Services</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="service-card bg-white p-4 rounded-lg shadow">
+          <img src="Real-time Parking Availability.png" alt="Service 1" class="rounded mb-4" />
+          <h3 class="text-xl font-semibold">Real-time Availability</h3>
+          <p>Instant updates on parking spots across campus.</p>
+        </div>
+        <div class="service-card bg-white p-4 rounded-lg shadow">
+          <img src="Automated Entry & Exit.jpg" alt="Service 2" class="rounded mb-4" />
+          <h3 class="text-xl font-semibold">Automated Entry & Exit</h3>
+          <p>Seamless access with automated ticketing.</p>
+        </div>
+        <div class="service-card bg-white p-4 rounded-lg shadow">
+          <img src="Online Parking Reservations.jpg" alt="Service 3" class="rounded mb-4" />
+          <h3 class="text-xl font-semibold">Online Reservations</h3>
+          <p>Book your parking in advance and save time.</p>
+        </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
 </body>
 </html>
