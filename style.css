@@ -48,8 +48,9 @@ h2 {
 /* 🌟 About Section Styling */
 /* ========================= */
 #about {
-  background-color: #f9fafb;
+  background: linear-gradient(to right, #facc15, #fde047, #facc15);
   text-align: center;
+  color: #111827;
 }
 
 #about h2 {
@@ -69,7 +70,8 @@ h2 {
 /* 🚗 Services Section Styling */
 /* ============================ */
 #services {
-  background-color: #ffffff;
+  background: linear-gradient(to right, #facc15, #fde047, #facc15);
+  color: #111827;
 }
 
 #services h2 {
@@ -196,3 +198,10 @@ h2 {
     font-size: 1.125rem;
   }
 }
+
+
+#about h2, #about p,
+#services h2, #services p {
+  color: #111827;
+}
+
